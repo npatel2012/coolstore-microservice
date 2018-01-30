@@ -383,6 +383,7 @@ objects:
     resources:
       requests:
         storage: 512Mi
+    storageClassName: gluster-container
 parameters:
 - description: Hostname suffix used for routes e.g. inventory-<HOSTNAME_SUFFIX>
   displayName: Hostname suffix used for routes
