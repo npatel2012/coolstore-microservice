@@ -467,6 +467,7 @@ objects:
     resources:
       requests:
         storage: 1Gi
+    storageClassName: gluster-container
 # Catalog Service
 - apiVersion: v1
   kind: DeploymentConfig
@@ -716,6 +717,7 @@ objects:
     resources:
       requests:
         storage: 512Mi
+    storageClassName: gluster-container
 # Rating Service
 - apiVersion: v1
   kind: DeploymentConfig
@@ -979,6 +981,7 @@ objects:
     resources:
       requests:
         storage: 512Mi
+    storageClassName: gluster-container
 # Cart Service
 - apiVersion: v1
   kind: DeploymentConfig
@@ -1415,6 +1418,7 @@ objects:
     resources:
       requests:
         storage: 1Gi
+    storageClassName: gluster-container
 - apiVersion: v1
   kind: Service
   metadata:
